@@ -38,7 +38,7 @@ void merge(int l,int mid,int r){
       k++;
     }
   }
-for(i=i,j=0;i<=r;i++,j++)
+for(i=l,j=0;i<=r;i++,j++)
    A[i]=C[j];
  }
 
