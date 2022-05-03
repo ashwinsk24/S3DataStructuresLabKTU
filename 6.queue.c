@@ -19,12 +19,13 @@ void enqueue(int x)
         {
             front = 0;
             rear =0;
+            queue[rear] = x;
+
         }
-        else
+        else{
         rear = rear + 1;
-
-   queue[rear] = x;
-
+        queue[rear] = x;
+ }
 }
 
 void dequeue()
