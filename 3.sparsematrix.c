@@ -46,7 +46,4 @@ void main()
         }
         printf(" \n");
     }
-
 }
-
-
