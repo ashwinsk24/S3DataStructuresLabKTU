@@ -35,10 +35,10 @@ void dequeueCQ()
         {
             front = (front+1)%n;
             de = cqueue[front];
+            printf("\n Element '%d' deleted",de);
 
 
         }
-   printf("\n Element '%d' deleted",de);
 }
 
 void displayCQ()
