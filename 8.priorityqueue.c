@@ -23,20 +23,20 @@ void enqueuePQ(int x, int p)
         printf(" Queue is Full ");
     }
 
-    else
-       {
-
-        if(front == -1 && rear == -1)
+    else if(front == -1 && rear == -1)
         {
             front = 0;
             rear = 0;
-        }
-        else
-        rear = rear + 1;
+            pq[rear].value = x;
+            pq[rear].priority = p;
 
+        }
+        else{
+        rear = rear + 1;
         pq[rear].value = x;
         pq[rear].priority = p;
-       }
+      }
+
 }
 
 void dequeuePQ()
