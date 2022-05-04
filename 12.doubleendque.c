@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int size,queue[10];
-int front;
+int front =-1;
 int rear = -1;
 void deletefront();
 void insertrear(int);
